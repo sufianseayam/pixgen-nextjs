@@ -4,7 +4,7 @@ import PhotoCard from './PhotoCard';
 const TopGeneration = async() => {
     const res=await fetch('https://pixgen-nextjs-sooty.vercel.app/data.json')
     const photos=await res.json()
-    console.log(photos);
+    // console.log(photos);
     const topPhotos=photos.slice(0,8)
     console.log(topPhotos);
     return (
