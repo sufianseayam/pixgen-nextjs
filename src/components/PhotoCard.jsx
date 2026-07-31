@@ -6,7 +6,7 @@ import { FcLike } from "react-icons/fc";
 
 
 const PhotoCard = ({ photo }) => {
-    console.log(photo);
+    // console.log(photo);
     return (
         <Card className="border rounded-xl">
             <div className="relative w-full aspect-square">
